@@ -1,0 +1,22 @@
+{
+  "name": "igreja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/guestbook.ts",
+    "typeorm": "./node_modules/.bin/typeorm "
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.5",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.17"
+  }
+}
